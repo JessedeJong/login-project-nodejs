@@ -1,18 +1,38 @@
 {
   "name": "oop",
   "version": "1.0.0",
-  "description": "",
-  "main": "login.js",
+  "description": "This is a project by me, Jesse. I'm working on this to expand my NodeJS knowledge and will add features as time goes on.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessedeJong/login-project-nodejs.git"
   },
   "author": "Jesse de Jong",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessedeJong/login-project-nodejs/issues"
+  },
+  "homepage": "https://github.com/JessedeJong/login-project-nodejs#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
     "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
     "express-session": "^1.16.2",
-    "mysql": "^2.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
